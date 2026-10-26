@@ -1,0 +1,38 @@
+{
+  "name": "dsh-clock",
+  "version": "0.1.0",
+  "description": "DSH 插件：让 AI 知道现在几点 —— 时间、星期、时段、该用什么口吻",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "clock",
+    "time"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "author": "huhuai-ni",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huhuai-ni/dsh-clock.git"
+  },
+  "homepage": "https://github.com/huhuai-ni/dsh-clock#readme",
+  "bugs": {
+    "url": "https://github.com/huhuai-ni/dsh-clock/issues"
+  }
+}
